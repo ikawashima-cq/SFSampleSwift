@@ -1,0 +1,72 @@
+PODS:
+  - SalesforceMobileSDK-iOS (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SalesforceNetwork (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SalesforceOAuth (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SalesforceRestAPI (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SalesforceSDKCore (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SalesforceSecurity (= 3.3.1)
+    - SalesforceMobileSDK-iOS/SmartSync (= 3.3.1)
+  - SalesforceMobileSDK-iOS/SalesforceCommonUtils (3.3.1)
+  - SalesforceMobileSDK-iOS/SalesforceNetwork (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceOAuth
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSDKCore
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+    - SQLCipher (~> 3.1)
+    - SQLCipher/fts (~> 3.1)
+  - SalesforceMobileSDK-iOS/SalesforceOAuth (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+  - SalesforceMobileSDK-iOS/SalesforceRestAPI (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceNetwork
+    - SalesforceMobileSDK-iOS/SalesforceOAuth
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSDKCore
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+    - SQLCipher (~> 3.1)
+    - SQLCipher/fts (~> 3.1)
+  - SalesforceMobileSDK-iOS/SalesforceSDKCommon (3.3.1)
+  - SalesforceMobileSDK-iOS/SalesforceSDKCore (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceOAuth
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+    - SQLCipher (~> 3.1)
+    - SQLCipher/fts (~> 3.1)
+  - SalesforceMobileSDK-iOS/SalesforceSecurity (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+  - SalesforceMobileSDK-iOS/SmartSync (3.3.1):
+    - SalesforceMobileSDK-iOS/SalesforceCommonUtils
+    - SalesforceMobileSDK-iOS/SalesforceNetwork
+    - SalesforceMobileSDK-iOS/SalesforceOAuth
+    - SalesforceMobileSDK-iOS/SalesforceRestAPI
+    - SalesforceMobileSDK-iOS/SalesforceSDKCommon
+    - SalesforceMobileSDK-iOS/SalesforceSDKCore
+    - SalesforceMobileSDK-iOS/SalesforceSecurity
+    - SQLCipher (~> 3.1)
+    - SQLCipher/fts (~> 3.1)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/fts (3.1.0):
+    - SQLCipher/common
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+  - SVProgressHUD (2.0.2)
+
+DEPENDENCIES:
+  - SalesforceMobileSDK-iOS
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  SalesforceMobileSDK-iOS: 6f6b00c3a37a1b2814658c471ee27e9b560df3a9
+  SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
+  SVProgressHUD: e4020e23badbd7cc61bc4a80d3c1da57f166a978
+
+COCOAPODS: 0.39.0
